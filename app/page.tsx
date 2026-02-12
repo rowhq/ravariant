@@ -194,8 +194,8 @@ export default function Home() {
         <article className="w-full max-w-[480px] text-justify">
           {/* Brand */}
           <FadeIn delay={0.3}>
-            <h1 className="font-sans text-[13px] md:text-[15px] font-semibold tracking-[0.25em] text-ink uppercase text-left mb-3">
-              ravariant labs
+            <h1 className="font-sans text-[15px] md:text-[17px] tracking-[0.2em] text-ink text-left mb-3">
+              <span className="font-light">ra</span><span className="font-semibold uppercase">variant</span><span className="font-light text-[#999] uppercase ml-2">labs</span>
             </h1>
             <p className="font-serif text-[14px] md:text-[15px] leading-[1.9] text-[#888] text-left mb-12 md:mb-16">
               We build the infrastructure that connects pricing, product
