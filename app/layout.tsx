@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Ravariant Labs — Liquidity Research & Infrastructure",
   description:
     "Applied research in liquidity coordination, secondary market design, and structured products for tokenized real-world assets.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
